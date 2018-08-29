@@ -1,0 +1,10 @@
+c:\Users\alvaf\wp\1dv607\Blackjack-1dv607\bin\Debug\netcoreapp2.0\Blackjack-1dv607.deps.json
+c:\Users\alvaf\wp\1dv607\Blackjack-1dv607\bin\Debug\netcoreapp2.0\Blackjack-1dv607.runtimeconfig.json
+c:\Users\alvaf\wp\1dv607\Blackjack-1dv607\bin\Debug\netcoreapp2.0\Blackjack-1dv607.runtimeconfig.dev.json
+c:\Users\alvaf\wp\1dv607\Blackjack-1dv607\bin\Debug\netcoreapp2.0\Blackjack-1dv607.dll
+c:\Users\alvaf\wp\1dv607\Blackjack-1dv607\bin\Debug\netcoreapp2.0\Blackjack-1dv607.pdb
+c:\Users\alvaf\wp\1dv607\Blackjack-1dv607\obj\Debug\netcoreapp2.0\Blackjack-1dv607.csproj.CoreCompileInputs.cache
+c:\Users\alvaf\wp\1dv607\Blackjack-1dv607\obj\Debug\netcoreapp2.0\Blackjack-1dv607.AssemblyInfoInputs.cache
+c:\Users\alvaf\wp\1dv607\Blackjack-1dv607\obj\Debug\netcoreapp2.0\Blackjack-1dv607.AssemblyInfo.cs
+c:\Users\alvaf\wp\1dv607\Blackjack-1dv607\obj\Debug\netcoreapp2.0\Blackjack-1dv607.dll
+c:\Users\alvaf\wp\1dv607\Blackjack-1dv607\obj\Debug\netcoreapp2.0\Blackjack-1dv607.pdb

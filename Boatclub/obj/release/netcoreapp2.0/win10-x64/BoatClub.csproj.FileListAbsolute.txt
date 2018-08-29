@@ -1,0 +1,13 @@
+C:\Users\alvaf\WP\1dv607\BoatClub\bin\release\netcoreapp2.0\win10-x64\hostpolicy.dll
+C:\Users\alvaf\WP\1dv607\BoatClub\bin\release\netcoreapp2.0\win10-x64\hostfxr.dll
+C:\Users\alvaf\WP\1dv607\BoatClub\bin\release\netcoreapp2.0\win10-x64\BoatClub.exe
+C:\Users\alvaf\WP\1dv607\BoatClub\bin\release\netcoreapp2.0\win10-x64\BoatClub.deps.json
+C:\Users\alvaf\WP\1dv607\BoatClub\bin\release\netcoreapp2.0\win10-x64\BoatClub.runtimeconfig.json
+C:\Users\alvaf\WP\1dv607\BoatClub\bin\release\netcoreapp2.0\win10-x64\BoatClub.runtimeconfig.dev.json
+C:\Users\alvaf\WP\1dv607\BoatClub\bin\release\netcoreapp2.0\win10-x64\BoatClub.dll
+C:\Users\alvaf\WP\1dv607\BoatClub\bin\release\netcoreapp2.0\win10-x64\BoatClub.pdb
+C:\Users\alvaf\WP\1dv607\BoatClub\obj\release\netcoreapp2.0\win10-x64\BoatClub.csproj.CoreCompileInputs.cache
+C:\Users\alvaf\WP\1dv607\BoatClub\obj\release\netcoreapp2.0\win10-x64\BoatClub.AssemblyInfoInputs.cache
+C:\Users\alvaf\WP\1dv607\BoatClub\obj\release\netcoreapp2.0\win10-x64\BoatClub.AssemblyInfo.cs
+C:\Users\alvaf\WP\1dv607\BoatClub\obj\release\netcoreapp2.0\win10-x64\BoatClub.dll
+C:\Users\alvaf\WP\1dv607\BoatClub\obj\release\netcoreapp2.0\win10-x64\BoatClub.pdb

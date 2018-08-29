@@ -1,0 +1,10 @@
+c:\Users\alvaf\WP\1dv607\BoatClub\bin\Debug\netcoreapp2.0\BoatClub.deps.json
+c:\Users\alvaf\WP\1dv607\BoatClub\bin\Debug\netcoreapp2.0\BoatClub.runtimeconfig.json
+c:\Users\alvaf\WP\1dv607\BoatClub\bin\Debug\netcoreapp2.0\BoatClub.runtimeconfig.dev.json
+c:\Users\alvaf\WP\1dv607\BoatClub\bin\Debug\netcoreapp2.0\BoatClub.dll
+c:\Users\alvaf\WP\1dv607\BoatClub\bin\Debug\netcoreapp2.0\BoatClub.pdb
+c:\Users\alvaf\WP\1dv607\BoatClub\obj\Debug\netcoreapp2.0\BoatClub.csproj.CoreCompileInputs.cache
+c:\Users\alvaf\WP\1dv607\BoatClub\obj\Debug\netcoreapp2.0\BoatClub.AssemblyInfoInputs.cache
+c:\Users\alvaf\WP\1dv607\BoatClub\obj\Debug\netcoreapp2.0\BoatClub.AssemblyInfo.cs
+c:\Users\alvaf\WP\1dv607\BoatClub\obj\Debug\netcoreapp2.0\BoatClub.dll
+c:\Users\alvaf\WP\1dv607\BoatClub\obj\Debug\netcoreapp2.0\BoatClub.pdb

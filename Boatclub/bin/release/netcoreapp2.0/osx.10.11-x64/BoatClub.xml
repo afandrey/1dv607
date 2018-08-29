@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Members>
+  <Member memberId="492" name="Test1" birthday="1122330000">
+    <Boats>
+      <Boat boatId="839" type="Motorboat" length="30" />
+    </Boats>
+  </Member>
+  <Member memberId="264" name="Test2" birthday="1234567899">
+    <Boats>
+      <Boat boatId="567" type="Sailboat" length="17" />
+      <Boat boatId="932" type="Kayak/Canoe" length="22" />
+    </Boats>
+  </Member>
+  <Member memberId="884" name="Test4" birthday="1234880000">
+    <Boats>
+      <Boat boatId="668" type="Motorboat" length="27" />
+    </Boats>
+  </Member>
+</Members>

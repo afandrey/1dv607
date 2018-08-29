@@ -1,0 +1,21 @@
+title View Game
+
+loop view saved game
+    Game->+ViewController: ViewGameResult()
+    ViewController->+RoundView: SelectActivity(ViewSavedGame)
+    RoundView-->-ViewController:
+    ViewController-->-Game:
+    Game->+Database: ListSavedGames()
+    Database-->+Game: <files>
+    Game->+ViewController: GetSavedGame()
+    ViewController-->-Game: <file> 
+    alt [file]
+        Game->ViewController: ViewVerboseList()
+        ViewController-->Game: <verboseList>
+        ViewController->+RoundView: SelectActivity(<file>)
+        RoundView-->-ViewController:
+        Game->Database: GetFromFile()
+        Database-->Game: return <file>
+        Game->ViewController: RenderScoreBoard(<file>)
+    end
+end

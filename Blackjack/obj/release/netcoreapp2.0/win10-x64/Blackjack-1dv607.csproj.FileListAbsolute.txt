@@ -1,0 +1,13 @@
+C:\Users\alvaf\wp\1dv607\Blackjack-1dv607\bin\release\netcoreapp2.0\win10-x64\hostpolicy.dll
+C:\Users\alvaf\wp\1dv607\Blackjack-1dv607\bin\release\netcoreapp2.0\win10-x64\hostfxr.dll
+C:\Users\alvaf\wp\1dv607\Blackjack-1dv607\bin\release\netcoreapp2.0\win10-x64\Blackjack-1dv607.exe
+C:\Users\alvaf\wp\1dv607\Blackjack-1dv607\bin\release\netcoreapp2.0\win10-x64\Blackjack-1dv607.deps.json
+C:\Users\alvaf\wp\1dv607\Blackjack-1dv607\bin\release\netcoreapp2.0\win10-x64\Blackjack-1dv607.runtimeconfig.json
+C:\Users\alvaf\wp\1dv607\Blackjack-1dv607\bin\release\netcoreapp2.0\win10-x64\Blackjack-1dv607.runtimeconfig.dev.json
+C:\Users\alvaf\wp\1dv607\Blackjack-1dv607\bin\release\netcoreapp2.0\win10-x64\Blackjack-1dv607.dll
+C:\Users\alvaf\wp\1dv607\Blackjack-1dv607\bin\release\netcoreapp2.0\win10-x64\Blackjack-1dv607.pdb
+C:\Users\alvaf\wp\1dv607\Blackjack-1dv607\obj\release\netcoreapp2.0\win10-x64\Blackjack-1dv607.csproj.CoreCompileInputs.cache
+C:\Users\alvaf\wp\1dv607\Blackjack-1dv607\obj\release\netcoreapp2.0\win10-x64\Blackjack-1dv607.AssemblyInfoInputs.cache
+C:\Users\alvaf\wp\1dv607\Blackjack-1dv607\obj\release\netcoreapp2.0\win10-x64\Blackjack-1dv607.AssemblyInfo.cs
+C:\Users\alvaf\wp\1dv607\Blackjack-1dv607\obj\release\netcoreapp2.0\win10-x64\Blackjack-1dv607.dll
+C:\Users\alvaf\wp\1dv607\Blackjack-1dv607\obj\release\netcoreapp2.0\win10-x64\Blackjack-1dv607.pdb

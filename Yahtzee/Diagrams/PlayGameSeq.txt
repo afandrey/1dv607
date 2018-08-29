@@ -1,0 +1,75 @@
+title Play Game
+
+loop round
+    Game->+ViewController: RenderRoundNumber(roundNumber)
+    ViewController->+RoundView: RenderRoundNumber(roundNumber)
+    RoundView-->-ViewController:
+    ViewController-->-Game:
+    loop player
+        Game->+ViewController: RenderRound(playerName)
+        ViewController->+RoundView: RenderRound(playerName)
+        RoundView-->-ViewController: 
+        ViewController-->-Game:
+        loop roll 1-3
+            alt if DiceToRoll
+                Game->+DiceList: Roll()
+                DiceList-->-Game:
+                Game->+ViewController: RenderDice(dice)
+                ViewController->+RoundView: RenderDice(dice)
+                RoundView-->-ViewController: 
+                ViewController-->-Game:
+                alt player.isAI
+                    Game->+DiceList: GetNumberOfDiceFaceValues()
+                    DiceList-->-Game: <values>
+                    Game->+DiceList: GetDice()
+                    DiceList-->-Game: <dice>
+                    Game->+AI: GetDiceToRoll(values, dice)
+                    alt
+                        AI->Rules: Yahtzee()
+                        Rules-->AI:
+                        AI->Rules: FullHouse()
+                        Rules-->AI:
+                        AI->Rules: LargeStraight()
+                        Rules-->AI:
+                        AI->Rules: SmallStraight()
+                        Rules-->AI:
+                    end
+                    AI-->-Game: <diceToRoll>
+                else
+                    Game->+Player: GetUsedCombinations()
+                    Player-->-Game: <usedCombos>
+                    Game->+ViewController: RenderUnavailableCombos(usedCombos)
+                    ViewController->+RoundView: SelectActivity(viewAvailableCombos)
+                    RoundView-->-ViewController: <y/n>
+                    alt y
+                        ViewController->RoundView: RenderUnavailableCombos
+                        RoundView-->ViewController:
+                    end
+                    ViewController-->-Game:
+                    Game->+ViewController: GetDiceToRoll()
+                    ViewController->+RoundView: GetDiceToRoll()
+                    RoundView-->-ViewController: <diceToRoll>
+                    ViewController-->-Game: <diceToRoll>
+                end
+                Game->+ViewController: RenderDiceToRoll(diceToRoll)
+                ViewController->+RoundView: RenderDiceToRoll(diceToRoll)
+                RoundView-->-ViewController:
+                ViewController-->-Game:
+            end
+        end
+        alt player.isAI
+            Game->+AI: SelectComboToUse()
+            AI->+Rules: CheckCombinations()
+            Rules-->-AI:
+            AI-->-Game: <comboToUse>
+        end
+        Game->+Player: AddScore(comboToUse)
+        Player-->-Game: 
+        Game->+Player: GetScore()
+        Player-->-Game: <points>
+        Game->+ViewController: GetRoundScore(points, comboToUse)
+        ViewController->+ScoreView: GetRoundScore(points, comboToUse)
+        ScoreView-->-ViewController:
+        ViewController-->-Game:
+    end
+end

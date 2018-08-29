@@ -1,0 +1,8 @@
+2018-01-22 13:45:14
+1
+AI1
+true
+30|SmallStraight
+alva
+false
+24|Sixes
